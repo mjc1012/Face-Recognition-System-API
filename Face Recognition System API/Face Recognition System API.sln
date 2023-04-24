@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Face Recognition System API", "Face Recognition System API.csproj", "{0A869B5B-24D6-485C-88FC-0921C757AA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Face Recognition System Data", "..\Face Recognition System Data\Face Recognition System Data.csproj", "{89E03996-D952-4378-87B8-CA4F517629B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Face Recognition System Domain", "..\Face Recognition System Domain\Face Recognition System Domain.csproj", "{3235589B-0FE3-48E4-8019-6C967B06C515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A869B5B-24D6-485C-88FC-0921C757AA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A869B5B-24D6-485C-88FC-0921C757AA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A869B5B-24D6-485C-88FC-0921C757AA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A869B5B-24D6-485C-88FC-0921C757AA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E03996-D952-4378-87B8-CA4F517629B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E03996-D952-4378-87B8-CA4F517629B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E03996-D952-4378-87B8-CA4F517629B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E03996-D952-4378-87B8-CA4F517629B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3235589B-0FE3-48E4-8019-6C967B06C515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3235589B-0FE3-48E4-8019-6C967B06C515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3235589B-0FE3-48E4-8019-6C967B06C515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3235589B-0FE3-48E4-8019-6C967B06C515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17AB971F-F883-4196-8BF7-F4573DE7DB9F}
+	EndGlobalSection
+EndGlobal
