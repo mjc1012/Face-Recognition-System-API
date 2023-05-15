@@ -37,7 +37,7 @@ namespace Face_Recognition_System_API.Controllers
                     {
                         return StatusCode(StatusCodes.Status200OK, new ResponseDto() { Status = false, Message = BaseConstants.ErrorList, Value = new List<string>() { "Cannot Predict Face"} });
                     }
-                    return StatusCode(StatusCodes.Status200OK, new ResponseDto() { Status = true, Message = FaceToRecognizeConstants.SuccessAdd, Value = await _uow.PersonService.FindById(predictedPersonId)});
+                    return StatusCode(StatusCodes.Status200OK, new ResponseDto() { Status = true, Message = FaceToRecognizeConstants.SuccessAdd, Value = await _uow.PersonService.FindByPairId(predictedPersonId)});
                 }
             }
             catch (Exception ex)
